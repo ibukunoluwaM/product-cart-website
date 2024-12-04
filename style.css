@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1rem;
+    background-color:hsl(13, 31%, 94%);
+    position: relative;
+}
+
+.modal {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left:0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background-color: rgba(131, 127, 127, 0.356);
+    z-index: 20;
+}
+
+.parent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.menu-container {
+    width: 70%;
+}
+
+
+.one {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+h1 {
+    margin-bottom: 1.2rem;
+    font-size: 2rem;
+}
+.menu-parent {
+    position: relative;
+}
+
+.img-parent .menu-img {
+    width: 17rem;
+    border-radius: 1rem;
+}
+
+button.btn {
+    z-index: 10;
+    cursor: pointer !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    border-radius: 1.2rem;
+    border: 1px solid hsl(14, 86%, 42%);
+    position: absolute;
+    left: 22%;
+    bottom: 23%;
+    outline: none;
+    background-color: #ffffff;
+}
+
+.quantity {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 8.5rem;
+    padding: 10px 14px;
+    background-color: hsl(14, 86%, 42%);
+    position: absolute;
+    left: 22%;
+    border-radius: 1.2rem;
+    color: #fff;
+    z-index:5;
+    bottom: 23%;
+}
+
+.quantity button {
+    background: transparent;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.quantity img {
+    display: inline-block;
+    width: 1rem; 
+    padding: 5px;
+}
+
+div.info p {
+    margin-top: 10px;
+}
+
+.category {
+    margin-top: 1.2rem;
+    color: hsl(7, 20%, 60%);
+    font-size: 14px;
+}
+
+.menu-name {
+    font-weight: 800;
+}
+
+.price {
+    color: hsl(14, 86%, 42%);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+aside {
+    width: 30%;
+    /* height: auto; */
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.ordered {
+    display: none;
+}
+
+.parent-img {
+    width: 100%;
+     display: flex;
+    justify-content: center;
+}
+
+.empty img {
+    width: 60%;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color:hsl(14, 86%, 42%);
+}
+
+.order {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order img {
+    z-index: 20;
+    cursor: pointer;
+}
+
+h3 {
+    margin-top: 0.7rem;
+}
+
+.miscellanous {
+    display: flex;
+    margin: 0.5rem 0;
+}
+
+.miscellanous p {
+    margin-left: 8px;
+    margin-top: 8px;
+    font-weight:800;
+}
+
+.miscellanous .amount {
+    margin-left: 0;
+}
+
+hr {
+    margin-top: 0.5rem;
+}
+
+.amount {
+    color: hsl(14, 86%, 42%);
+}
+
+.unit-price {
+    color: #777;
+}
+
+.total {
+    color: hsl(12, 20%, 44%)
+}
+
+.order-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+
+
+.total-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.carbon {
+    margin-top: 1rem;
+    text-align: center;
+    background-color: hsl(13, 31%, 94%);
+    padding: 14px;
+}
+
+.carbon img {
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.btns {
+    text-align: center;
+    color: #fff;
+    background-color: hsl(14, 86%, 42%);
+    width:100%;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem;
+    z-index: 8;
+    cursor: pointer;
+}
+
+.confirmed-parent {
+    display: none;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    /* position: absolute; */
+    left:0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    z-index: 30;
+}
+
+.confirmed {
+    display:block;
+    background: #fff;
+    width: 28rem;
+    padding: 1rem;
+    border-radius: 12px;
+}
+
+.confirm-order{
+    padding: 10px;
+    background-color:  hsl(13, 31%, 94%);
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+    border-radius: 10px;
+}
+
+aside .confirm-btn {
+    z-index: 20;
+    cursor: pointer;
+}
+
+/* h3 {
+    font-size: 2rem;
+} */
+
+.confirm-order img {
+    width: 3.125rem;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.others {
+    display: flex;   
+}
+
+.others p {
+    margin-right: 1rem;
+}
+
+.info {
+    flex-grow: 2;
+}
+
+#note {
+    margin-bottom: 1rem;
+}
+
+/* hide element */
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.order .remove-btn {
+    cursor: pointer;
+}
+
+.total-val {
+    font-weight: 800;
+}
+
+
+/* responsiveness; mobile */
+@media screen and (max-width: 800px) {
+    .parent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-container {
+        width: 90%;
+    }
+
+    .menu-parent {
+        margin: 0 auto;
+    }
+
+
+    .img-parent .menu-img {
+        width: 100%;
+    }
+
+    .one {
+        grid-template-columns: 100%;
+        gap: 16px
+    }
+
+   button.btn, .quantity {
+        left: 32%;
+        bottom: 75px;
+        padding: 0.3rem 0.8rem;
+   }
+
+    aside {
+        margin-top: 22px;
+        width: 90%;
+    }
+
+    .confirmed {
+        width: 24rem;
+        display: block;
+    }
+}
+
+/* */
+@media screen and (min-width: 700px) and (max-width:800px ) {
+      button.btn, .quantity {
+        left: 36%;
+        bottom: 18%;
+        padding: 0.3rem 0.8rem;
+   }
+}
+
+/* responsiveness: maybe tab */
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+    .one {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .menu-container {
+        width: 70%;
+    }
+
+    .price, .total-value {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    .miscellanous p {
+        font-size: 0.9rem;
+
+    }
+
+    .carbon {
+        font-size: 0.875rem;
+    }
+    .img-parent .menu-img {
+        width: 80%;
+        border-radius: 1rem;
+    }
+
+    button.btn, .quantity {
+        left: 21%;
+        bottom: 25%;
+        padding: 0.3rem 0.8rem;
+    }
+    
+
+    aside {
+        width: 30%;
+    }
+
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1300px) {
+    .img-parent .menu-img {
+        width: 13rem;
+    }
+
+    button.btn, .quantity {
+        left: 20%;
+        bottom: 27%;
+        padding: 0.3rem 0.8rem;
+    }
+}
+

@@ -1,0 +1,245 @@
+<!-- 1 -->
+        <div class="menu-parent">
+          <div class="img-parent">
+          <img src= ./assets/images/image-waffle-desktop.jpg alt="Waffle" class="menu-img">
+          <button class="btn">
+              <img src="assets/images/icon-add-to-cart.svg" alt="cart">
+              <p>Add to Cart</p>
+          </button>
+  
+          <div class="quantity">
+              <button><img src="assets/images/icon-decrement-quantity.svg" alt="decrement"></button>
+              <p>1</p>
+              <button><img src="assets/images/icon-increment-quantity.svg" alt="increment"></button>
+          </div>
+          </div>
+  
+          <div class="info">
+          <p class=category>Waffle</p>
+          <p class="menu-name"> Waffle with Berries</p>
+          <p class="price">6.49</p>
+          </div>
+      </div> 
+
+      <!-- 2 -->
+      <div class="menu-parent">
+          <div class="img-parent">
+          <img src= ./assets/images/image-macaron-desktop.jpg alt="Macaron" class="menu-img">
+          <button class="btn">
+              <img src="assets/images/icon-add-to-cart.svg" alt="cart">
+              <p>Add to Cart</p>
+          </button>
+  
+          <div class="quantity">
+              <button><img src="assets/images/icon-decrement-quantity.svg" alt="decrement"></button>
+              <p>1</p>
+              <button><img src="assets/images/icon-increment-quantity.svg" alt="increment"></button>
+          </div>
+          </div>
+  
+          <div class="info">
+          <p class=category>Macaron</p>
+          <p class="menu-name"> Macaron Mix of Five</p>
+          <p class="price">7.99</p>
+          </div>
+      </div> 
+
+      <!-- 3 -->
+      <div class="menu-parent">
+          <div class="img-parent">
+          <img src= ./assets/images/image-tiramisu-desktop.jpg alt="Tiramisu" class="menu-img">
+          <button class="btn">
+              <img src="assets/images/icon-add-to-cart.svg" alt="cart">
+              <p>Add to Cart</p>
+          </button>
+  
+          <div class="quantity">
+              <button><img src="assets/images/icon-decrement-quantity.svg" alt="decrement"></button>
+              <p>1</p>
+              <button><img src="assets/images/icon-increment-quantity.svg" alt="increment"></button>
+          </div>
+          </div>
+  
+          <div class="info">
+          <p class=category>Tiramisu</p>
+          <p class="menu-name"> Classic Tiramisu</p>
+          <p class="price">5.49</p>
+          </div>
+      </div>
+      <!-- 4 -->
+      <div class="menu-parent">
+          <div class="img-parent">
+          <img src= ./assets/images/image-creme-brulee-desktop.jpg alt="Crème Brûlée" class="menu-img">
+          <button class="btn">
+              <img src="assets/images/icon-add-to-cart.svg" alt="cart">
+              <p>Add to Cart</p>
+          </button>
+  
+          <div class="quantity">
+              <button><img src="assets/images/icon-decrement-quantity.svg" alt="decrement"></button>
+              <p>1</p>
+              <button><img src="assets/images/icon-increment-quantity.svg" alt="increment"></button>
+          </div>
+          </div>
+  
+          <div class="info">
+          <p class=category>Crème Brûlée</p>
+          <p class="menu-name"> Vanilla Bean Crème Brûlée</p>
+          <p class="price">6.99</p>
+          </div>
+      </div> 
+      <!-- 5 -->
+      <div class="menu-parent">
+          <div class="img-parent">
+          <img src= ./assets/images/image-baklava-desktop.jpg alt="Baklava" class="menu-img">
+          <button class="btn">
+              <img src="assets/images/icon-add-to-cart.svg" alt="cart">
+              <p>Add to Cart</p>
+          </button>
+  
+          <div class="quantity">
+              <button><img src="assets/images/icon-decrement-quantity.svg" alt="decrement"></button>
+              <p>1</p>
+              <button><img src="assets/images/icon-increment-quantity.svg" alt="increment"></button>
+          </div>
+          </div>
+  
+          <div class="info">
+          <p class=category>Baklava</p>
+          <p class="menu-name"> Pistachio Baklava</p>
+          <p class="price">3.99</p>
+          </div>
+      </div> 
+      <!-- 6 -->
+      <div class="menu-parent">
+          <div class="img-parent">
+          <img src= ./assets/images/image-meringue-desktop.jpg alt="Pie" class="menu-img">
+          <button class="btn">
+              <img src="assets/images/icon-add-to-cart.svg" alt="cart">
+              <p>Add to Cart</p>
+          </button>
+  
+          <div class="quantity">
+              <button><img src="assets/images/icon-decrement-quantity.svg" alt="decrement"></button>
+              <p>1</p>
+              <button><img src="assets/images/icon-increment-quantity.svg" alt="increment"></button>
+          </div>
+          </div>
+  
+          <div class="info">
+          <p class=category>Pie</p>
+          <p class="menu-name"> Lemon Meringue Pie</p>
+          <p class="price">4.99</p>
+          </div>
+      </div> 
+      <!-- 7 -->
+      <div class="menu-parent">
+          <div class="img-parent">
+          <img src= ./assets/images/image-cake-desktop.jpg alt="Cake" class="menu-img">
+          <button class="btn">
+              <img src="assets/images/icon-add-to-cart.svg" alt="cart">
+              <p>Add to Cart</p>
+          </button>
+  
+          <div class="quantity">
+              <button><img src="assets/images/icon-decrement-quantity.svg" alt="decrement"></button>
+              <p>1</p>
+              <button><img src="assets/images/icon-increment-quantity.svg" alt="increment"></button>
+          </div>
+          </div>
+  
+          <div class="info">
+          <p class=category>Cake</p>
+          <p class="menu-name"> Red Velvet Cake</p>
+          <p class="price">4.49</p>
+          </div>
+      </div> 
+      <!-- 8 -->
+      <div class="menu-parent">
+          <div class="img-parent">
+          <img src= ./assets/images/image-brownie-desktop.jpg alt="Brownie" class="menu-img">
+          <button class="btn">
+              <img src="assets/images/icon-add-to-cart.svg" alt="cart">
+              <p>Add to Cart</p>
+          </button>
+  
+          <div class="quantity">
+              <button><img src="assets/images/icon-decrement-quantity.svg" alt="decrement"></button>
+              <p>1</p>
+              <button><img src="assets/images/icon-increment-quantity.svg" alt="increment"></button>
+          </div>
+          </div>
+  
+          <div class="info">
+          <p class=category>Brownie</p>
+          <p class="menu-name"> Salted Caramel Brownie</p>
+          <p class="price">4.49</p>
+          </div>
+      </div> 
+      <!-- 9 -->
+      <div class="menu-parent">
+          <div class="img-parent">
+          <img src= ./assets/images/image-panna-cotta-desktop.jpg alt="Panna Cotta" class="menu-img">
+          <button class="btn">
+              <img src="assets/images/icon-add-to-cart.svg" alt="cart">
+              <p>Add to Cart</p>
+          </button>
+  
+          <div class="quantity">
+              <button><img src="assets/images/icon-decrement-quantity.svg" alt="decrement"></button>
+              <p>1</p>
+              <button><img src="assets/images/icon-increment-quantity.svg" alt="increment"></button>
+          </div>
+          </div>
+  
+          <div class="info">
+          <p class=category>Panna Cotta</p>
+          <p class="menu-name"> Vanilla Panna Cotta</p>
+          <p class="price">6.49</p>
+          </div>
+      </div>   
+
+<!-- i removed this from the order cart -->
+  <!-- order one -->
+      <!-- <div class="order">
+        <div class="order-info">
+          <h3>Classic Tiramisu</h3>
+          <div class="miscellanous">
+            <p class="amount">1x</p>
+            <p class="unit-price">@ $5.50</p>
+            <p class="total">$5.50</p>
+          </div>
+        </div>
+          <img src="assets/images/icon-remove-item.svg" alt="">
+      </div>
+      <hr>
+
+      <!-- order two -->
+      <div class="order">
+        <div class="order-info">
+          <h3>Classic Tiramisu</h3>
+          <div class="miscellanous">
+            <p class="amount">1x</p>
+            <p class="unit-price">@ $5.50</p>
+            <p class="total">$5.50</p>
+          </div>
+        </div>
+
+        <img src="assets/images/icon-remove-item.svg" alt="">
+      </div>
+      <hr>
+
+      <!-- order three -->
+      <div class="order">
+        <div class="order-info">
+          <h3>Classic Tiramisu</h3>
+          <div class="miscellanous">
+            <p class="amount">1x</p>
+            <p class="unit-price">@ $5.50</p>
+            <p class="total">$5.50</p>
+          </div>
+        </div>
+
+        <img src="assets/images/icon-remove-item.svg" alt="">
+      </div>
+      <hr> -->

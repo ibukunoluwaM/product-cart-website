@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png"> 
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Product list with cart</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <section class="parent">
+
+    <!-- modal -->
+    <div class="modal"></div>
+
+    <!-- first side --menu -->
+    <section class="menu-container">
+      <h1>Desserts</h1>
+      <main class="one">
+
+      </main>
+    </section>
+
+    <!-- second side -->
+    <aside class="ordered">
+      <h2>Your Cart <span>(7)</span></h2>
+      <div class="order-parent">
+        <!-- order goes here -->
+      </div>
+      <div class="order-total">
+        <p>Order Total</p>
+        <p class="total-val">$0.00</p>
+      </div>
+
+      <p class="carbon"><img src="assets/images/icon-carbon-neutral.svg" alt="">
+      This is a <b>Carbon-neutral delivery</b></p>
+
+      <button class="btns confirm-btn">Confirm Order</button>
+    </aside>
+
+
+    <!-- empty cart -->
+    <aside class="empty">
+      <h2>Your Cart <span>(0)</span></h2>
+      <div class="parent-img">
+        <img src="assets/images/illustration-empty-cart.svg" alt="empty-cart">
+
+      </div>
+    </aside>
+  </section>
+
+  <!-- confirmed modal -->
+  <section class="confirmed-parent">
+    <section class="confirmed">
+      <img src="assets/images/icon-order-confirmed.svg" alt="confirmed">
+      <h1>Order Confirmed</h2>
+      <p id="note">We hope you enjoy your food!</p>
+
+      <!-- 1 -->
+      <div class="confirmedOrderParent"></div>
+
+
+      <div class="order-total">
+        <p>Order Total</p>
+        <p class="total-value">$46.50</p>
+      </div>
+
+      <button class="btns start-btn">Start New Order</button>
+    </section>
+</section>
+
+ 
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Ibukunoluwanimi</a>.
+  </div>
+
+  <script src="text.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
